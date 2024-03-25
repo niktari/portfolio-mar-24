@@ -11,10 +11,15 @@ function revealInfo() {
 
     if(document.documentElement.scrollTop > 50 && infoElem.classList.contains("hide-element")) {
         topButton.style.display = 'block';
+    } else {
+        topButton.style.display = 'none';
+        
+    }
+
+    if(infoElem.classList.contains("hide-element")) {
         projectsButton.style.display = 'block';
         sandboxButton.style.display = 'block';
     } else {
-        topButton.style.display = 'none';
         projectsButton.style.display = 'none';
         sandboxButton.style.display = 'none';
     }
