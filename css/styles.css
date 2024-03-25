@@ -273,7 +273,7 @@ h1 {
 
 /* SECTION: PROJECTS */
 #projects, #sandbox {
-    margin: 1rem 0;
+    margin: var(--page-margin) 0;
 }
 
 
