@@ -1,4 +1,4 @@
-let colors = ['#88B9B4', '#AACCDF', '#DCE3FA', '#0277C7', '#FF4901'];
+let palette = ['#88B9B4', '#AACCDF', '#DCE3FA', '#0277C7', '#FF4901'];
 
 let elements = document.querySelectorAll('.effect');
 
@@ -88,7 +88,7 @@ effectsSwitch.onchange = () => {
 function addColors() {
     spanElements.forEach((spanElement) => {
       
-    spanElement.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)]
+    spanElement.style.backgroundColor = palette[Math.floor(Math.random() * palette.length)]
       
       
       
