@@ -262,9 +262,9 @@ h1 {
     background-color: var(--light-blue);
   }
   
-  input:focus + .slider {
+  /* input:focus + .slider {
     box-shadow: 0 0 1px var(--light-blue);
-  }
+  } */
   
   input:checked + .slider:before {
     -webkit-transform: translateX(calc(4rem - 1.25rem));
