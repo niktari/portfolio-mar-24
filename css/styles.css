@@ -536,7 +536,7 @@ label:hover {
         display: grid;
         grid-template-columns: repeat(6, minmax(0, 1fr));
         column-gap: 1rem;
-        row-gap: 1rem;
+        /* row-gap: 1rem; */
     }
 
     .span-8, .span-7, .span-4 {
@@ -552,17 +552,8 @@ label:hover {
         margin-bottom: 1rem;
     }
 
-    /* .project--wrapper, .sandbox--wrapper {
-        margin-bottom: 2rem;
-    } */
-    
-  }
+}
 
-  /* @media screen and (max-width: 600px) {
-    #about {
-        margin-top: 6rem;
-    }
-  } */
 
   @media screen and (max-width: 500px) {
     #nav--params {
