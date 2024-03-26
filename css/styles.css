@@ -539,8 +539,8 @@ label:hover {
         row-gap: 1rem;
     }
 
-    .span-7, .span-4 {
-        grid-column: -1/1;
+    .span-8, .span-7, .span-4 {
+        grid-column: 1/-1;
     }
 
     #sandbox .grid .span-4 {
@@ -548,12 +548,14 @@ label:hover {
     }
 
     .project--wrapper-info {
+        position: static;
         margin-bottom: 1rem;
     }
 
-    .project--wrapper, .sandbox--wrapper {
+    /* .project--wrapper, .sandbox--wrapper {
         margin-bottom: 2rem;
-    }
+    } */
+    
   }
 
   /* @media screen and (max-width: 600px) {
@@ -581,6 +583,10 @@ label:hover {
 
     #about {
         margin-top: 6rem;
+    }
+
+    #sandbox .grid .span-4 {
+        grid-column: 1/-1;
     }
 /* 
     .span-4 {
